@@ -8,3 +8,4 @@ trinotate: annotation results from trinotate
 data:raw data
 
 Raw data is stored in Uppmax, what if uppmax is dead!!
+add some changes to test
