@@ -14,4 +14,4 @@ cd /proj/b2013028/INBOX/P.Hamback_15_01/
 
 /sw/apps/bioinfo/blast/2.2.31+/milou/bin/makeblastdb -in /proj/b2013028/INBOX/P.Hamback_15_01/uniprot_sprot.fasta -dbtype prot
 /sw/apps/bioinfo/blast/2.2.31+/milou/bin//blastx -query /proj/b2013028/INBOX/P.Hamback_15_01/newcalm_Trinity.fasta -db /proj/b2013028/INBOX/P.Hamback_15_01/uniprot_sprot.fasta -out blastx.outfmt6 \
- -evalue 1e-20 -num_threads 6 -max_target_seqs 1 -outfmt 6 &> logblastcalm.txt
+ -evalue 1e-20 -num_threads 6 -outfmt 6 &> logblastcalm.txt
